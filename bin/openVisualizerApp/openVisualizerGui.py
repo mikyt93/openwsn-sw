@@ -84,6 +84,7 @@ class OpenVisualizerGui(object):
                     moteState.moteState.ST_KAPERIOD,
                     moteState.moteState.ST_OUPUTBUFFER,
                     moteState.moteState.ST_BACKOFF,
+                    moteState.moteState.ST_TELOSB_TMP,
                 ],
                 [
                     moteState.moteState.TRIGGER_DAGROOT,

@@ -211,6 +211,15 @@ class ParserStatus(Parser.Parser):
                                         'kaPeriod',                  # H
                                     ],
                                 )
+        self._addFieldsParser(
+                              3,
+                              11,
+                              'temperature',
+                              '<H',
+                              [
+                               'temperature'
+                               ],
+                              )
     
     #======================== public ==========================================
     
